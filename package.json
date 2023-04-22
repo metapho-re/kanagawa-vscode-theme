@@ -1,0 +1,57 @@
+{
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kanagawa Wave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-wave-color-theme.json"
+      },
+      {
+        "label": "Kanagawa Dragon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-dragon-color-theme.json"
+      },
+      {
+        "label": "Kanagawa Lotus",
+        "uiTheme": "vs",
+        "path": "./themes/kanagawa-lotus-color-theme.json"
+      }
+    ]
+  },
+  "description": "A port of the Kanagawa Neovim color theme for Visual Studio Code, including all three flavors Wave, Dragon and Lotus.",
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  },
+  "displayName": "Kanagawa Color Themes",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "homepage": "https://github.com/metapho-re/kanagawa-vscode-theme",
+  "icon": "icon.png",
+  "keywords": [
+    "kanagawa",
+    "color",
+    "theme",
+    "vscode",
+    "dark",
+    "light",
+    "wave",
+    "dragon",
+    "lotus"
+  ],
+  "license": "MIT",
+  "name": "kanagawa-vscode-color-theme",
+  "publisher": "metaphore",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metapho-re/kanagawa-vscode-theme"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "version": "0.1.0"
+}
