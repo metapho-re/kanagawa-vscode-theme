@@ -224,7 +224,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#B98D7B"
+        "foreground": "#8992A7"
       }
     },
     {
@@ -282,23 +282,29 @@
       }
     },
     {
-      "name": "Function, Special Method",
+      "name": "Function",
       "scope": [
         "entity.name.function",
         "meta.function-call",
         "variable.function",
-        "support.function",
-        "keyword.other.special-method"
+        "support.function"
       ],
       "settings": {
         "foreground": "#8BA4B0"
       }
     },
     {
+      "name": "Special Method",
+      "scope": ["keyword.other.special-method"],
+      "settings": {
+        "foreground": "#949FB5"
+      }
+    },
+    {
       "name": "Macro",
       "scope": ["entity.name.function.macro"],
       "settings": {
-        "foreground": "#949FB5"
+        "foreground": "#C4746E"
       }
     },
     {
@@ -306,6 +312,13 @@
       "scope": ["meta.block variable.other"],
       "settings": {
         "foreground": "#C5C9C5"
+      }
+    },
+    {
+      "name": "Enum Member",
+      "scope": ["variable.other.enummember"],
+      "settings": {
+        "foreground": "#B6927B"
       }
     },
     {
@@ -445,7 +458,7 @@
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "foreground": "#8BA4B0"
+        "foreground": "#949FB5"
       }
     },
     {
@@ -455,7 +468,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#8BA4B0"
+        "foreground": "#949FB5"
       }
     },
     {
@@ -801,7 +814,7 @@
     "parameter": "#A6A69C",
     "variable": "#C5C9C5",
     "arithmetic": "#B98D7B",
-    "method": "#8BA4B0",
+    "method": "#949FB5",
     "function": "#8BA4B0",
     "operator": "#B98D7B",
     "parameter.declaration": "#A6A69C",
@@ -809,7 +822,7 @@
     "variable.readonly": "#C5C9C5",
     "variable.readonly.local": "#C5C9C5",
     "variable.readonly.defaultLibrary": "#C5C9C5",
-    "macro": "#949FB5",
+    "macro": "#C4746E",
     "keyword.controlFlow": {
       "foreground": "#8992A7",
       "fontStyle": "bold"
