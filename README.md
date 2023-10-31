@@ -6,6 +6,8 @@
 
 A port of the beautiful Kanagawa Neovim color theme, including all three flavors `Wave`, `Dragon` and `Lotus`.
 
+The extension is available in [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=metaphore.kanagawa-vscode-color-theme) and [Open VSX Registry](https://open-vsx.org/extension/metaphore/kanagawa-vscode-color-theme).
+
 <div align="center">
   <h3>Wave</h3>
   <img src="./assets/wave.png" width="1024" >
