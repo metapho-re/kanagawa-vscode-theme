@@ -25,7 +25,7 @@
   "devDependencies": {
     "@vscode/vsce": "^2.22.0"
   },
-  "displayName": "Kanagawa Color Themes",
+  "displayName": "Kanagawa Flavors",
   "engines": {
     "vscode": "^1.77.0"
   },
