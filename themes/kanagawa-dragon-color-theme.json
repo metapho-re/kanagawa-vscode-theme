@@ -482,7 +482,6 @@
       "name": "HTML Attribute",
       "scope": [
         "entity.other.attribute-name.html",
-        "entity.other.attribute-name",
         "invalid.deprecated.entity.other.attribute-name.html"
       ],
       "settings": {
