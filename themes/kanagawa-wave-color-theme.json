@@ -482,7 +482,6 @@
       "name": "HTML Attribute",
       "scope": [
         "entity.other.attribute-name.html",
-        "entity.other.attribute-name",
         "invalid.deprecated.entity.other.attribute-name.html"
       ],
       "settings": {
@@ -643,6 +642,18 @@
       ],
       "settings": {
         "foreground": "#98BB6C"
+      }
+    },
+    {
+      "name": "HTML text",
+      "scope": [
+        "meta.tag JSXNested",
+        "meta.jsx.children",
+        "text.html",
+        "text.log"
+      ],
+      "settings": {
+        "foreground": "#DCD7BA"
       }
     },
     {
