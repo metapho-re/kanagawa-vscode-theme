@@ -646,6 +646,18 @@
       }
     },
     {
+      "name": "HTML text",
+      "scope": [
+        "meta.tag JSXNested",
+        "meta.jsx.children",
+        "text.html",
+        "text.log"
+      ],
+      "settings": {
+        "foreground": "#C5C9C5"
+      }
+    },
+    {
       "name": "Markdown - Plain",
       "scope": [
         "text.html.markdown",
