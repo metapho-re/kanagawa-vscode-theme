@@ -275,13 +275,6 @@
       }
     },
     {
-      "name": "HTML Tag",
-      "scope": ["entity.name.tag.html"],
-      "settings": {
-        "foreground": "#8992A7"
-      }
-    },
-    {
       "name": "Function",
       "scope": [
         "entity.name.function",
@@ -476,16 +469,6 @@
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#8992A7"
-      }
-    },
-    {
-      "name": "HTML Attribute",
-      "scope": [
-        "entity.other.attribute-name.html",
-        "invalid.deprecated.entity.other.attribute-name.html"
-      ],
-      "settings": {
-        "foreground": "#C4B28A"
       }
     },
     {
